@@ -17,3 +17,51 @@
 .yellowText {
   color: goldenrod; /* Color dorado */
 }
+
+.infoSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+
+}
+
+.infoContainer {
+  color: white;
+  margin-left: 40px;
+
+}
+
+.infoContainer .title {
+  font-size: 60px;
+  font-weight: bold;
+
+}
+
+.infoContainer .list {
+  margin-top: 30px;
+}
+
+.infoContainer .list ul {
+  padding-left: 20px;
+}
+
+.infoContainer .list ul li {
+  margin-bottom: 20px;
+  list-style: disc;
+
+}
+
+.grayText {
+  color: gray;
+
+}
+
+.image {
+  max-width: 75%;
+  height: 50vh;
+  border-radius: 20%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+
+}
